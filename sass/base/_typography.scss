@@ -24,3 +24,24 @@
  animation-duration: 1s;
  }
 }
+.heading-secondry{
+  font-size:3.5rem;
+  text-transform:uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, $color-primary-light,$color-primary-dark);
+  display: inline-block;
+  -webkit-background-clip:text;
+  color:transparent;
+}
+.heading-tertiary{
+  text-transform: uppercase;
+  color:$color-gray-dark;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.paragraph{
+  font-size:1.6rem;
+}
+.paragraph:not(:last-child){
+  margin-bottom:3rem;
+}
